@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>After class project</title>
+    </head>
+    <body>
+        <h2>Simple Calculator</h2>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <script>
+    var a = 70;
+    var b = 100;
+    var sum = a + b;
+    var diff = b - a;
+    var prod = a * b;
+    var div = b / a;
+            document.getElementById("p1").innerHTML = "Sum of "+ a +" and "+ b +" is" +sum;
+            document.getElementById("p2").innerHTML = "Difference of " + b + " and " + a + " is" +diff;
+            document.getElementById("p3").innerHTML = "Product of " + a + " and " + b + " is" +prod;
+            document.getElementById("p4").innerHTML = "Quotient of " + b + " and " + a + " is" + div;
+        </script>
+    </body>
+</html>
