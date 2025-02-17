@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>After class project</title>
+</head>
+<body>
+    <h2>Array methods in JS</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var vegetables = ["Carrot", "cauliflower","brinjal", "tomato", "cucumber"];
+        document.getElementById("p1").innerHTML ="Original array is" + vegetables;
+        document.getElementById("p2").innerHTML = vegetables.join("-");
+        vegetables.pop();
+        document.getElementById("p3").innerHTML="Array after removed element is" + vegetables;
+        vegetables.push("cucumber");
+        document.getElementById("p4").innerHTML="Array after putting one element is" + vegetables;
+    </script>
+</body>
+</html>
