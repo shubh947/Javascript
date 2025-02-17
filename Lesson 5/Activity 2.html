@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Activity 2</title>
+</head>
+
+<body>
+    <h2>Array methods in JS</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var fruits = ["beetroot", "apple", "mango", "pineapple", "banana"];
+        document.getElementById("p1").innerHTML ="Original array is" + fruits;
+        document.getElementById("p2").innerHTML = fruits.join("-");
+        fruits.pop();
+        document.getElementById("p3").innerHTML="Array after removed element is" + fruits;
+        fruits.push("banana");
+        document.getElementById("p4").innerHTML="Array after putting one elemint is" + fruits;
+    </script>
+</body>
+</html>
